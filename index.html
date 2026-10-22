@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>گروه نرم افزاری آویتا</title>
+    <link rel="stylesheet" href="CSS/fontawesome.min.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/brands.min.css">
+    <link rel="stylesheet" href="CSS/solid.min.css">
+    <link rel="stylesheet" href="CSS/regular.min.css">
+    <link rel="stylesheet" href="CSS/animate.css">
+    <link rel="stylesheet" href="CSS/fancybox.css">
+    <link rel="stylesheet" href="CSS/aos.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="stylesheet" href="jQuary/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="jQuary/slick-1.8.1/slick/slick-theme.css">
+
+    <script src="jQuary/jquery-1.11.1.min.js"></script>
+    <script src="jQuary/jquery-migrate-1.2.1.min.js"></script>
+    <script src="jQuary/jquery-3.6.1.min.js"></script>
+    <script src="jQuary/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="jQuary/jquery.keyframes.min.js"></script>
+    <script src="jQuary/fancybox.umd.js"></script>
+    <script src="jQuary/aos.js"></script>
+
+
+</head>
+<body>
+<section id="all-section" class="section-withs">
+
+    <a href="#" id="go-top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+
+    <div id="color-changer">
+        <i class="fa-solid fa-fill-drip"></i>
+    </div>
+
+    <div id="change-theme">
+        <div class="circle-theme one active-circle-theme">
+            <div class="in-circle even"></div>
+            <div class="in-circle odd"></div>
+        </div>
+        <div class="circle-theme two">
+            <div class="in-circle even"></div>
+            <div class="in-circle odd"></div>
+        </div>
+        <div class="circle-theme three">
+            <div class="in-circle even"></div>
+            <div class="in-circle odd"></div>
+        </div>
+        <div class="circle-theme four">
+            <div class="in-circle even"></div>
+            <div class="in-circle odd"></div>
+        </div>
+        <div class="circle-theme five">
+            <div class="in-circle even"></div>
+            <div class="in-circle odd"></div>
+        </div>
+    </div>
+
+    <div id="overlay-container">
+        <div id="content-wrapper">
+            <a href="index.html"><img src="images/logo_avita_1.png"></a>
+            <i class="fa-solid fa-multiply"></i>
+            <ul id="overlay-menu">
+                <li class="change-color-2">صفحه اصلی</li>
+                <li class="change-color-2">درباره ما<i class="fa-solid fa-angle-left"></i></i>
+                    <ul>
+                        <li>تاریخچه آویتا</li>
+                        <li>اعضای گروه</li>
+                        <li>فرصت های همکاری</li>
+                        <li>اخبار گروه</li>
+                    </ul>
+                </li>
+                <li class="change-color-2">تماس با ما<i class="fa-solid fa-angle-left"></i></i>
+                    <ul>
+                        <li>تماس با آویتا</li>
+                        <li>مرکز امور مشتریان</li>
+                        <li>پرسش های متداول</li>
+                    </ul>
+                </li>
+                <li class="change-color-2">نمونه کارها</li>
+                <li class="change-color-2">مشتریان<i class="fa-solid fa-angle-left"></i></i>
+                    <ul>
+                        <li>باشگاه مشتریان</li>
+                        <li>مرکز امور مشتریان</li>
+                    </ul>
+                </li>
+                <li class="change-color-2">قیمت ها<i class="fa-solid fa-angle-left"></i></i>
+                    <ul>
+                        <li>لیست قیمت ها</li>
+                        <li>تخفیف های آخر هفته</li>
+                        <li>شرایط اقساطی</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="account-container">
+        <div id="account" class="animate__animated">
+            <ul id="account-tabs">
+                <li>
+                    <a href="#sign-in" class="active-tab">ورود</a>
+                </li>
+                <li>
+                    <a href="#sign-up">ثبت نام</a>
+                </li>
+            </ul>
+
+            <div class="tabs" id="sign-in">
+                <form action="processor.php" autocomplete="off" method="post" enctype="multipart/form-data"
+                      class="form-wrapper">
+
+                    <div class="input-wrapper">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" name="user-name" id="user-name" class="account-form"
+                               placeholder="نام کاربری خود را وارد کنید" minlength="3" maxlength="10" required
+                               tabindex="1">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="password" id="password" class="account-form"
+                               placeholder="رمز عبور خود را وارد کنید" minlength="5" maxlength="15" required
+                               tabindex="2">
+                    </div>
+
+                    <div id="remember-wrapper">
+                        <input type="checkbox" id="accept_rules" name="accept_rules">
+                        <label>ذخیره رمز عبور</label>
+                    </div>
+
+                    <button type="submit" class="account-btn">ورود</button>
+                    <a href="">رمز عبور خود را فراموش کرده اید؟</a>
+                    <a class="exit">خروج</a>
+
+                </form>
+            </div>
+            <div class="tabs" id="sign-up">
+                <form action="processor.php" autocomplete="off" method="post" enctype="multipart/form-data"
+                      class="form-wrapper">
+
+                    <div class="input-wrapper">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" name="user-name-register" id="user-name-register" class="account-form"
+                               placeholder="نام کاربری خود را وارد کنید" minlength="3" maxlength="10" required
+                               tabindex="1">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" name="email-register" id="email-register" class="account-form"
+                               placeholder="ایمیل خود را وارد کنید" minlength="5" maxlength="15" required
+                               tabindex="2">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="password-register" id="password-register" class="account-form"
+                               placeholder="رمز عبور خود را وارد کنید" minlength="5" maxlength="15" required
+                               tabindex="2">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="password-register-repeat" id="password-register-repeat"
+                               class="account-form"
+                               placeholder="رمز عبور را تکرار کنید" minlength="5" maxlength="15" required
+                               tabindex="2">
+                    </div>
+
+                    <button type="submit" class="account-btn">ثبت نام</button>
+                    <a class="exit">خروج</a>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <section id="main-section" class="section-withs">
+        <img id="background-header" src="images/main_bg.jpg">
+
+        <div id="main-section-container">
+            <div id="top-header">
+                <a href="index.html"> <img id="logo" src="images/logo_avita_1.png"></a>
+                <div id="menu-wrapper">
+                    <div id="menu">
+                        <ul id="header-list">
+                            <li>خانه
+                                <div class="animate-under-line"></div>
+                            </li>
+                            <li>درباره ما
+                                <div class="animate-under-line"></div>
+                                <ul>
+                                    <li data-aos="fade-left">تاریخچه آویتا</li>
+                                    <li data-aos="fade-left">اعضای گروه</li>
+                                    <li data-aos="fade-left">فرصت های همکاری</li>
+                                    <li data-aos="fade-left">اخبار گروه</li>
+                                </ul>
+                            </li>
+                            <li>تماس با ما
+                                <div class="animate-under-line"></div>
+                                <ul>
+                                    <li>تماس با آویتا</li>
+                                    <li>مرکز امور مشتریان</li>
+                                    <li>پرسش های متداول</li>
+                                </ul>
+                            </li>
+                            <li>نمونه کارها
+                                <div class="animate-under-line"></div>
+                            </li>
+                            <li>مشتریان
+                                <div class="animate-under-line"></div>
+                                <ul>
+                                    <li>باشگاه مشتریان</li>
+                                    <li>مرکز امور مشتریان</li>
+                                </ul>
+                            </li>
+                            <li>قیمت ها
+                                <div class="animate-under-line"></div>
+                                <ul>
+                                    <li>لیست قیمت ها</li>
+                                    <li>تخفیف های آخر هفته</li>
+                                    <li>شرایط اقساطی</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <i class="fa-solid fa-bars" id="menu-bars"></i>
+                    <i class="fa-solid fa-user" id="account-button"></i>
+                </div>
+            </div>
+            <div id="content">
+                <h3>ما خیلی خلاقیم!</h3>
+                <h2>شرکت تجارت الکتریک <span>آویتا</span></h2>
+                <h4 class="sub-heading">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</h4>
+                <form action="#" id="search">
+                    <input type="search" id="service-search" placeholder="دنبال چه خدماتی هستید ؟">
+                    <input type="button" value="جستجو" id="search-btn" class="general-btn">
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="services-section" class="section-withs">
+        <div id="services-section-container">
+            <div class="under-line">
+                <h2>خدمات ما</h2>
+            </div>
+            <h3 class="sub-heading">لیستی از آخرین خدمات را مشاهده می کنید.</h3>
+            <div id="services-boxes-container">
+                <div class="services-boxes" data-aos="fade-up" data-aos-delay="200">
+                    <div class="logo-in-service">
+                        <i class="fa-solid fa-tree"></i>
+                    </div>
+                    <h3>طراحی خلاقانه</h3>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است</p>
+                    <a> <i class="fa-solid fa-arrow-right"></i> جزئیات بیشتر</a>
+                </div>
+                <div class="services-boxes" data-aos="fade-up" data-aos-delay="400">
+                    <div class="logo-in-service">
+                        <i class="fa-solid fa-shield-alt"></i>
+                    </div>
+                    <h3>برندسازی</h3>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است</p>
+                    <a> <i class="fa-solid fa-arrow-right"></i> جزئیات بیشتر</a>
+                </div>
+                <div class="services-boxes" data-aos="fade-up" data-aos-delay="600">
+                    <div class="logo-in-service">
+                        <i class="fa-solid fa-palette"></i>
+                    </div>
+                    <h3>طراحی وب سایت</h3>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است</p>
+                    <a> <i class="fa-solid fa-arrow-right"></i> جزئیات بیشتر</a>
+                </div>
+                <div class="services-boxes" data-aos="fade-up" data-aos-delay="800">
+                    <div class="logo-in-service">
+                        <i class="fa-solid fa-earth"></i>
+                    </div>
+                    <h3>بهینه سازی سئو</h3>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است</p>
+                    <a> <i class="fa-solid fa-arrow-right"></i> جزئیات بیشتر</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="statistics-section" class="section-withs">
+        <div id="statistics-section-container">
+            <div id="statistics-wrapper">
+                <div class="statistics">
+                    <i class="fa-solid fa-heart"></i>
+                    <h3>3569</h3>
+                    <h2>مشتریان راضی</h2>
+                </div>
+                <div class="statistics">
+                    <i class="fa-solid fa-project-diagram"></i>
+                    <h3>564</h3>
+                    <h2>پروژه انجام شده</h2>
+                </div>
+                <div class="statistics">
+                    <i class="fa-solid fa-download"></i>
+                    <h3>256</h3>
+                    <h2>دریافت فایل</h2>
+                </div>
+                <div class="statistics">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>8543</h3>
+                    <h2>خط کد</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="comments-section" class="section-withs">
+        <div id="comments-section-container">
+            <div class="under-line">
+                <h2>نظرات مشتریان</h2>
+            </div>
+            <h3 class="sub-heading">نظرات مشتریان قبلی ما را مشاهده می نمایید</h3>
+            <div id="comments-container">
+                <div class="multiple-items-comment" id="comment-wrapper">
+                    <div class="comment-box">
+                        <div class="profile-container">
+                            <div class="profile-picture">
+                                <img src="images/customer_1.jpg">
+                            </div>
+                            <div class="profile-wrapper">
+                                <h3>ایمان محمدی</h3>
+                                <h4>مدیر عامل مپنا</h4>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <img src="images/quote.svg">
+                        </div>
+                        <p>
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                            است،
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                            تکنولوژی
+                            مورد
+                            نیاز، و کاربردهای متنوع با
+                        </p>
+                    </div>
+                    <div class="comment-box ">
+                        <div class="profile-container">
+                            <div class="profile-picture">
+                                <img src="images/customer_2.jpg">
+                            </div>
+                            <div class="profile-wrapper">
+                                <h3>زهرا جوکار</h3>
+                                <h4>موسس تخفیفان</h4>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <img src="images/quote.svg">
+                        </div>
+                        <p>
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                            است،
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                            تکنولوژی
+                            مورد
+                            نیاز، و کاربردهای متنوع با
+                        </p>
+                    </div>
+                    <div class="comment-box ">
+                        <div class="profile-container">
+                            <div class="profile-picture">
+                                <img src="images/customer_3.jpg">
+                            </div>
+                            <div class="profile-wrapper">
+                                <h3>ایمان محمدی</h3>
+                                <h4>مدیر عامل مپنا</h4>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <img src="images/quote.svg">
+                        </div>
+                        <p>
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                            است،
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                            تکنولوژی
+                            مورد
+                            نیاز، و کاربردهای متنوع با
+                        </p>
+                    </div>
+                    <div class="comment-box">
+                        <div class="profile-container">
+                            <div class="profile-picture">
+                                <img src="images/customer_4.jpg">
+                            </div>
+                            <div class="profile-wrapper">
+                                <h3>زهرا جوکار</h3>
+                                <h4>موسس تخفیفان</h4>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <img src="images/quote.svg">
+                        </div>
+                        <p>
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                            است،
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                            تکنولوژی
+                            مورد
+                            نیاز، و کاربردهای متنوع با
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio-section" class="section-withs">
+        <div id="portfolio-section-container">
+            <div class="under-line">
+                <h2>نمونه کارها</h2>
+            </div>
+            <h3 class="sub-heading">آخرین نمونه کارهای ما را بررسی کنید.</h3>
+            <div id="portfolio-menu">
+                <ul id="header-portfolio-list">
+                    <li id=".all" class="active-li "><a href="##" class="active-a">همه</a></li>
+                    <li id=".site"><a href="##">سایت</a></li>
+                    <li id=".app"><a href="##">اپلیکیشن</a></li>
+                    <li id=".design"><a href="##">طراحی</a></li>
+                    <li id=".graphic"><a href="##">گرافیک</a></li>
+                    <li id=".edit"><a href="##">تدوین</a></li>
+                </ul>
+            </div>
+            <div id="portfolio-wrapper">
+                <div class="animate__animated animate__fadeIn portfolios all app graphic">
+                    <div class="portfolios-hover">
+                        <a href="images/port_1.jpg" data-fancybox="myGallery" data-caption="نمونه کار شماره 1"
+                           data-thumb="images/port_1.jpg"></a>
+                    </div>
+                    <div class="text-in-hover">
+                        لورم ایپسوم متن ساختگی ّبا تولید سادگی نامفهوم
+                    </div>
+                    <h3 class="h3-in-hover">نمونه کار شماره <span>1</span></h3>
+                    <img src="images/port_1.jpg">
+                </div>
+                <div class="animate__animated animate__fadeIn portfolios all site graphic">
+                    <div class="portfolios-hover">
+                        <a href="images/port_2.jpg" data-fancybox="myGallery" data-caption="نمونه کار شماره 2"
+                           data-thumb="images/port_2.jpg"></a>
+                    </div>
+                    <div class="text-in-hover">
+                        لورم ایپسوم متن ساختگی ّبا تولید سادگی نامفهوم
+                    </div>
+                    <h3 class="h3-in-hover">نمونه کار شماره <span>2</span></h3>
+                    <img src="images/port_2.jpg">
+                </div>
+                <div class="animate__animated animate__fadeIn portfolios all app graphic edit">
+                    <div class="portfolios-hover">
+                        <a href="images/port_3.jpg" data-fancybox="myGallery" data-caption="نمونه کار شماره 3"
+                           data-thumb="images/port_3.jpg"></a>
+                    </div>
+                    <div class="text-in-hover">
+                        لورم ایپسوم متن ساختگی ّبا تولید سادگی نامفهوم
+                    </div>
+                    <h3 class="h3-in-hover">نمونه کار شماره <span>3</span></h3>
+                    <img src="images/port_3.jpg">
+                </div>
+                <div class="animate__animated animate__fadeIn portfolios all site graphic">
+                    <div class="portfolios-hover">
+                        <a href="images/port_4.jpg" data-fancybox="myGallery" data-caption="نمونه کار شماره 4"
+                           data-thumb="images/port_4.jpg"></a>
+                    </div>
+                    <div class="text-in-hover">
+                        لورم ایپسوم متن ساختگی ّبا تولید سادگی نامفهوم
+                    </div>
+                    <h3 class="h3-in-hover">نمونه کار شماره <span>4</span></h3>
+                    <img src="images/port_4.jpg">
+                </div>
+                <div class="animate__animated animate__fadeIn portfolios all app design edit">
+                    <div class="portfolios-hover">
+                        <a href="images/port_5.jpg" data-fancybox="myGallery" data-caption="نمونه کار شماره 5"
+                           data-thumb="images/port_5.jpg"></a>
+                    </div>
+                    <div class="text-in-hover">
+                        لورم ایپسوم متن ساختگی ّبا تولید سادگی نامفهوم
+                    </div>
+                    <h3 class="h3-in-hover">نمونه کار شماره <span>5</span></h3>
+                    <img src="images/port_5.jpg">
+                </div>
+                <div class="animate__animated animate__fadeIn portfolios all site design">
+                    <div class="portfolios-hover">
+                        <a href="images/port_6.jpg" data-fancybox="myGallery" data-caption="نمونه کار شماره 6"
+                           data-thumb="images/port_6.jpg"></a>
+                    </div>
+                    <div class="text-in-hover">
+                        لورم ایپسوم متن ساختگی ّبا تولید سادگی نامفهوم
+                    </div>
+                    <h3 class="h3-in-hover">نمونه کار شماره <span>6</span></h3>
+                    <img src="images/port_6.jpg">
+                </div>
+                <div class="animate__animated animate__fadeIn portfolios all app design edit site">
+                    <div class="portfolios-hover">
+                        <a href="images/port_7.jpg" data-fancybox="myGallery" data-caption="نمونه کار شماره 7"
+                           data-thumb="images/port_7.jpg"></a>
+                    </div>
+                    <div class="text-in-hover">
+                        لورم ایپسوم متن ساختگی ّبا تولید سادگی نامفهوم
+                    </div>
+                    <h3 class="h3-in-hover">نمونه کار شماره <span>7</span></h3>
+                    <img src="images/port_7.jpg">
+                </div>
+                <div class="animate__animated animate__fadeIn portfolios all site design">
+                    <div class="portfolios-hover">
+                        <a href="images/port_8.jpg" data-fancybox="myGallery" data-caption="نمونه کار شماره 8"
+                           data-thumb="images/port_8.jpg"></a>
+                    </div>
+                    <div class="text-in-hover">
+                        لورم ایپسوم متن ساختگی ّبا تولید سادگی نامفهوم
+                    </div>
+                    <h3 class="h3-in-hover">نمونه کار شماره <span>8</span></h3>
+                    <img src="images/port_8.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team-section" class="section-withs">
+        <div id="team-section-container">
+            <div class="under-line">
+                <h2>تیم ما</h2>
+            </div>
+            <h3 class="sub-heading">با اعضای گروه نرم افزاری اویتا بیشتر آشنا شوید</h3>
+            <div id="team-wrapper">
+                <div class="multiple-items-team" id="member-wrapper">
+                    <div class="members-team">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i> </a></li>
+                            <li><a href="#"><i class="fa-brands fa-telegram"></i> </a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i> </a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i> </a></li>
+                        </ul>
+                        <img src="images/team_1.png">
+                        <div class="title-wrapper">
+                            <h3>احمد بادپی</h3>
+                            <h4>مدیر پروژه</h4>
+                        </div>
+                    </div>
+                    <div class="members-team">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i> </a></li>
+                            <li><a href="#"><i class="fa-brands fa-telegram"></i> </a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i> </a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i> </a></li>
+                        </ul>
+                        <img src="images/team_2.png">
+                        <div class="title-wrapper">
+
+                            <h3>مرتضی قربانعلی زاده</h3>
+                            <h4>توسعه دهنده رابط کاربری</h4>
+                        </div>
+                    </div>
+                    <div class="members-team">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i> </a></li>
+                            <li><a href="#"><i class="fa-brands fa-telegram"></i> </a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i> </a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i> </a></li>
+                        </ul>
+                        <img src="images/team_3.png">
+                        <div class="title-wrapper">
+                            <h3>محمد میرعلی</h3>
+                            <h4>توسعه دهنده React Native</h4>
+                        </div>
+                    </div>
+                    <div class="members-team">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i> </a></li>
+                            <li><a href="#"><i class="fa-brands fa-telegram"></i> </a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i> </a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i> </a></li>
+                        </ul>
+                        <img src="images/team_4.jpg">
+                        <div class="title-wrapper">
+                            <h3>محمدرضا چاوشی پور</h3>
+                            <h4>برنامه نویس ارشد Python</h4>
+                        </div>
+                    </div>
+                    <div class="members-team">
+                        <ul>
+                            <li><a href="##"><i class="fa-brands fa-twitter"></i> </a></li>
+                            <li><a href="##"><i class="fa-brands fa-telegram"></i> </a></li>
+                            <li><a href="##"><i class="fa-brands fa-facebook"></i> </a></li>
+                            <li><a href="##"><i class="fa-brands fa-instagram"></i> </a></li>
+                        </ul>
+                        <img src="images/team_5.jpg">
+                        <div class="title-wrapper">
+                            <h3>سید مسعود امامیان</h3>
+                            <h4>مدير ارشد تكنولوژي(CTO) و برنامه نویس BackEnd</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="FAQ-section" class="section-withs">
+        <img src="images/FAQ-1.jpg" id="FAQ-bg">
+        <div id="FAQ-section-container">
+            <div id="FAQ-title">
+                <div class="under-line">
+                    <h2>پرسش های متداول!</h2>
+                </div>
+                <h3 class="sub-heading">ما اینجا هستیم تا پاسخگوی شما باشیم</h3>
+            </div>
+            <div id="FAQ">
+                <div class="right-column">
+                    <div data-aos="fade-left" data-aos-delay="100" class="question-wrapper"><h4>شرایط پردخت هزینه ها به
+                        چه صورت است؟</h4><i
+                            class="fa-solid fa-plus"></i></div>
+                    <div class="answer-wrapper">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی
+                        مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                        درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد
+                    </div>
+                    <div data-aos="fade-left" data-aos-delay="300" class="question-wrapper"><h4>آیا گروه آویتا فعالیت
+                        بین المللی هم دارد؟</h4><i
+                            class="fa-solid fa-plus"></i></div>
+                    <div class="answer-wrapper">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی
+                        مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                        درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد
+                    </div>
+                    <div data-aos="fade-left" data-aos-delay="500" class="question-wrapper"><h4>شرایط عضوریت در باشگاه
+                        مشتریان چگونه است؟</h4><i
+                            class="fa-solid fa-plus"></i></div>
+                    <div class="answer-wrapper">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی
+                        مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                        درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد
+                    </div>
+                    <div data-aos="fade-left" data-aos-delay="700" class="question-wrapper"><h4>چگونه میتوان عضو گروه
+                        آویتا شد؟</h4><i
+                            class="fa-solid fa-plus"></i></div>
+                    <div class="answer-wrapper">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی
+                        مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                        درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد
+                    </div>
+                    <div data-aos="fade-left" data-aos-delay="900" class="question-wrapper"><h4>قیمت گذاری خدمات به چه
+                        صورت انجام میشود؟</h4><i
+                            class="fa-solid fa-plus"></i></div>
+                    <div class="answer-wrapper">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی
+                        مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                        درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد
+                    </div>
+                </div>
+                <div class="left-column"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-section" class="section-withs">
+        <div id="contact-section-container">
+            <div class="under-line">
+                <h2>با ما در تماس باشید!</h2>
+            </div>
+            <h3 class="sub-heading">ما خوشحال خواهیم شد که از شما بشنویم</h3>
+            <div id="contact-information">
+                <div class="information">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>شماره تماس</h3>
+                    <h4>09139616246<br>
+                        03155464723</h4>
+                </div>
+                <div class="information">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3>ایمیل</h3>
+                    <h4>avitagroup@gmail.com<br>
+                        info@avitagroup.com</h4>
+                </div>
+                <div class="information">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>آدرس</h3>
+                    <h4>کاشان خیابان آیت الله کاشانی <br>
+                        مجتمع سجاد طبقه اول واحد 12</h4>
+                </div>
+            </div>
+            <form action="#" autocomplete="off" method="post" enctype="multipart/form-data" id="contact-form">
+                <div id="form-wrapper">
+                    <div id="columns-wrapper">
+                        <div id="right-column">
+                            <input type="text" name="first_name" id="first_name" class="form-control"
+                                   placeholder="نام خود را وارد کنید" minlength="3" maxlength="10" required
+                                   tabindex="1">
+                            <input type="tel" name="phone-number" id="phone-number" class="form-control"
+                                   placeholder="شماره تماس خود را وارد نمایید" minlength="11" maxlength="11" required>
+                        </div>
+                        <div id="left-column">
+                            <input type="email" name="user_mail" id="user_mail" class="form-control"
+                                   placeholder="ایمیل خود را وارد نمایید" minlength="5" maxlength="25" required>
+                            <input type="text" name="subject" id="subject" class="form-control" placeholder="موضوع"
+                                   minlength="4" maxlength="10" required>
+                        </div>
+                    </div>
+                    <textarea name="message" id="message" rows="4" cols="50"
+                              placeholder="پیام خود را اینجا وارد کنید." minlength="4" maxlength="300"
+                              required></textarea>
+                    <button type="submit" class="submit-message">
+                        <i class="fa-solid fa-paper-plane"></i> ارسال پیام
+                    </button>
+                </div>
+
+
+            </form>
+        </div>
+    </section>
+
+    <section id="main-footer-section" class="section-withs">
+        <div id="main-footer-section-container">
+            <div class="main-footer" id="first-part">
+                <img src="images/logo_avita_white.png">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است</p>
+                <div id="social-logo-wrapper">
+                    <div class="social-logo">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="social-logo">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <div class="social-logo">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="social-logo">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="social-logo">
+                        <i class="fa-brands fa-telegram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="main-footer" id="second-part">
+                <div class="footer-title">
+                    <h2>دسترسی سریع</h2>
+                </div>
+                <ul>
+                    <li><i class="fa-solid fa-angle-left"></i> صفحه نخست</li>
+                    <li><i class="fa-solid fa-angle-left"></i> فرصت های شغلی</li>
+                    <li><i class="fa-solid fa-angle-left"></i> پرسش های متداول</li>
+                    <li><i class="fa-solid fa-angle-left"></i> رویه های بازگرداندن کالا</li>
+                    <li><i class="fa-solid fa-angle-left"></i> شرایط استفاده</li>
+                </ul>
+            </div>
+            <div class="main-footer" id="third-part">
+                <div class="footer-title">
+                    <h2>دانلود اپلیکیشن</h2>
+                </div>
+                <div id="image-wrapper">
+                    <img src="images/play-store.png" id="my-picture">
+                    <img src="images/app-store.png">
+                    <img src="images/bazar.png">
+                </div>
+            </div>
+            <div class="main-footer" id="forth-part">
+                <div class="footer-title">
+                    <h2>برچسب ها</h2>
+                </div>
+                <div id="tag-wrapper">
+                    <a>گالری</a>
+                    <a>دانلود</a>
+                    <a>آموزش</a>
+                    <a>برنامه نویسی</a>
+                    <a>فرانت اند</a>
+                    <a>بک اند</a>
+                    <a>آکادمی</a>
+                    <a>سئو سایت</a>
+                    <a>گوگل آنالیتیکز</a>
+                    <a>طراحی سایت</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="copy-right-section" class="section-withs">
+        <div id="copy-right-section-container">
+            <h3>تمامی حقوق محفوظ و متعلق به وبسایت Avita می باشد. Copyright © 2020</h3>
+            <h3>طراحی شده توسط <span>سبحان چنینی</span> با <i class="fa-sharp fa-solid fa-bolt-lightning"></i></h3>
+        </div>
+    </section>
+</section>
+
+
+<script src="jQuary/scripts-code.js"></script>
+
+</body>
+</html>

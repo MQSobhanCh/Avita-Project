@@ -1,0 +1,1429 @@
+/*other resolution*/
+@media screen and (min-width: 1920px) {
+    .section-withs {
+        width: 1903px;
+    }
+
+    #content-wrapper > a {
+        margin: 20px auto;
+        width: 15%;
+    }
+
+    #overlay-menu {
+        width: 50%;
+    }
+
+    #account-container {
+        width: 1903px;
+    }
+
+    #account {
+        width: 23%;
+    }
+
+    #account-tabs li a:link,
+    #account-tabs li a:visited {
+        font-size: 25px;
+    }
+
+    .input-wrapper {
+        height: 50px;
+    }
+
+    .account-form {
+        height: 50px;
+        padding-right: 30px;
+    }
+
+    #accept_rules {
+        width: 18px;
+        height: 18px;
+    }
+
+    #remember-wrapper > label {
+        font-size: 18px;
+    }
+
+    .account-btn {
+        padding: 8px 15px;
+        font-size: 20px;
+        margin: 15px auto;
+        width: 120px;
+    }
+
+    .account-form::placeholder {
+        font-size: 17px;
+    }
+
+    .form-wrapper > a {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .input-wrapper i {
+        right: 7px;
+        font-size: 18px;
+    }
+
+    #account-tabs li {
+        height: 60px;
+    }
+
+    #content > h2 {
+        font-size: 70px;
+    }
+
+    #content > h3 {
+        font-size: 30px;
+    }
+
+    .sub-heading {
+        font-size: 19px;
+    }
+
+    #menu {
+        width: 750px;
+    }
+
+    #header-list {
+        font-size: 22px;
+    }
+
+    #header-list > li > ul > li {
+        width: 235px;
+    }
+
+    #menu-wrapper > i {
+        font-size: 33px;
+        cursor: pointer;
+    }
+
+    #logo {
+        width: 220px;
+    }
+
+    #content-wrapper {
+        width: 1500px;
+    }
+
+    #content {
+        padding: 100px 0px 170px;
+    }
+
+    #search {
+        width: 600px;
+        height: 60px;
+    }
+
+    #search-btn {
+        width: 95px;
+        height: 50px;
+        font-size: 17px;
+        left: 7px;
+    }
+
+    #services-boxes-container {
+        width: 85%;
+    }
+
+    .services-boxes > h3 {
+        font-size: 20px;
+    }
+
+    .services-boxes > p {
+        text-align: center;
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .services-boxes {
+        width: 21%;
+    }
+
+    #statistics-section-container {
+        padding: 30px 0;
+    }
+
+    .comment-box > p {
+        font-size: 15px;
+    }
+
+    .profile-picture {
+        height: 110px;
+        width: 110px;
+    }
+
+    .profile-wrapper > h3 {
+        font-size: 22px;
+    }
+
+    .profile-wrapper > h4 {
+        font-size: 15px;
+    }
+
+    .profile-wrapper > i {
+        font-size: 21px;
+    }
+
+    .comment-box {
+        width: 50%;
+        min-height: 200px;
+        padding: 20px 20px 25px 20px;
+        box-shadow: rgb(185 185 185) 0px 0px 15px 1px;
+        border-radius: 10px;
+        display: block;
+        margin: 10px;
+    }
+
+    .profile-container > img {
+        width: 90px;
+    }
+
+    #header-portfolio-list {
+        width: 45%;
+    }
+
+    .text-in-hover {
+        width: 246px;
+        font-size: 22px;
+    }
+
+    .h3-in-hover {
+        font-size: 35px;
+    }
+
+    .title-wrapper > h3 {
+        font-size: 22px;
+    }
+
+    .title-wrapper > h4 {
+        font-size: 15px;
+    }
+
+    .members-team > ul {
+        padding: 5px;
+    }
+
+    .members-team i {
+        font-size: 25px;
+    }
+
+    #FAQ-section {
+        min-height: 700px;
+    }
+
+    .question-wrapper > h4 {
+        font-size: 23px;
+    }
+
+    .answer-wrapper {
+        font-size: 19px;
+    }
+
+    .information > i {
+        font-size: 55px;
+    }
+
+    .information > h3 {
+        font-size: 17px;
+        margin: 35px 0 5px 0;
+    }
+
+    .information > h4 {
+        line-height: 34px;
+        margin: 0;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #message {
+        height: 250px;
+    }
+
+    #contact-form {
+        width: 95%;
+    }
+
+    #submit-message {
+        padding: 9px 20px;
+        font-size: 21px;
+    }
+
+    .form-control {
+        height: 50px;
+    }
+
+    .main-footer {
+        width: 20%;
+    }
+
+    #main-footer-section-container {
+        width: 95%;
+        padding-bottom: 20px;
+    }
+
+    #image-wrapper img {
+        width: 58%;
+        margin: 5px 0px;
+        opacity: 0.7;
+        transition: all 300ms;
+    }
+}
+
+/*large-desktop*/
+@media screen and (max-width: 1920px) {
+    #account-container {
+        width: 100%;
+    }
+
+    #account {
+        width: 28%;
+        transform: translate(0);
+    }
+
+    #account-tabs li a:link,
+    #account-tabs li a:visited {
+        font-size: 25px;
+    }
+
+    .input-wrapper {
+        height: 50px;
+    }
+
+    .account-form {
+        height: 50px;
+        padding-right: 30px;
+    }
+
+    #accept_rules {
+        width: 18px;
+        height: 18px;
+    }
+
+    #remember-wrapper > label {
+        font-size: 18px;
+    }
+
+    .account-btn {
+        padding: 8px 15px;
+        font-size: 20px;
+        margin: 15px auto;
+        width: 120px;
+    }
+
+    .account-form::placeholder {
+        font-size: 17px;
+    }
+
+    .form-wrapper > a {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .input-wrapper i {
+        right: 7px;
+        font-size: 18px;
+    }
+
+    #account-tabs li {
+        height: 60px;
+    }
+
+    #content-wrapper > a {
+        margin: 20px auto;
+        width: 15%;
+    }
+
+    #overlay-menu {
+        width: 50%;
+    }
+
+    #content > h2 {
+        font-size: 70px;
+    }
+
+    #content > h3 {
+        font-size: 30px;
+    }
+
+    .sub-heading {
+        font-size: 19px;
+    }
+
+    #menu {
+        width: 750px;
+    }
+
+    #header-list {
+        font-size: 22px;
+    }
+
+    #menu-wrapper > i {
+        font-size: 33px;
+        cursor: pointer;
+    }
+
+    #logo {
+        width: 220px;
+    }
+
+    #content-wrapper {
+        width: 1500px;
+    }
+
+    #content {
+        padding: 100px 0px 170px;
+    }
+
+    #search {
+        width: 600px;
+        height: 60px;
+    }
+
+    #search-btn {
+        width: 95px;
+        height: 50px;
+        font-size: 17px;
+        left: 7px;
+    }
+
+    #services-boxes-container {
+        width: 85%;
+    }
+
+    .services-boxes > h3 {
+        font-size: 20px;
+    }
+
+    .services-boxes > p {
+        text-align: center;
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .services-boxes {
+        width: 21%;
+    }
+
+    #statistics-section-container {
+        padding: 30px 0;
+    }
+
+    .comment-box > p {
+        font-size: 15px;
+    }
+
+    .profile-picture {
+        height: 110px;
+        width: 110px;
+    }
+
+    .profile-wrapper > h3 {
+        font-size: 22px;
+    }
+
+    .profile-wrapper > h4 {
+        font-size: 15px;
+    }
+
+    .profile-wrapper > i {
+        font-size: 21px;
+    }
+
+    .comment-box {
+        width: 50%;
+        min-height: 200px;
+        padding: 20px 20px 25px 20px;
+        box-shadow: rgb(185 185 185) 0px 0px 15px 1px;
+        border-radius: 10px;
+        display: block;
+        margin: 10px;
+    }
+
+    .profile-container > img {
+        width: 90px;
+    }
+
+    #header-portfolio-list {
+        width: 45%;
+    }
+
+    .text-in-hover {
+        width: 227px;
+        font-size: 20px;
+    }
+
+    .h3-in-hover {
+        font-size: 30px;
+    }
+
+    .title-wrapper > h3 {
+        font-size: 22px;
+    }
+
+    .title-wrapper > h4 {
+        font-size: 15px;
+    }
+
+    .members-team > ul {
+        padding: 5px;
+    }
+
+    .members-team i {
+        font-size: 25px;
+    }
+
+    #FAQ-section {
+        min-height: 600px;
+    }
+
+    .question-wrapper > h4 {
+        font-size: 23px;
+    }
+
+    .answer-wrapper {
+        font-size: 19px;
+    }
+
+    .information > i {
+        font-size: 55px;
+    }
+
+    .information > h3 {
+        font-size: 17px;
+        margin: 35px 0 5px 0;
+    }
+
+    .information > h4 {
+        line-height: 34px;
+        margin: 0;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #message {
+        height: 250px;
+    }
+
+    #submit-message {
+        padding: 9px 20px;
+        font-size: 21px;
+    }
+
+    #contact-form {
+        width: 95%;
+    }
+
+    .main-footer {
+        width: 20%;
+    }
+
+    #main-footer-section-container {
+        width: 95%;
+        padding-bottom: 20px;
+    }
+
+    #image-wrapper img {
+        width: 58%;
+        margin: 5px 0px;
+        opacity: 0.7;
+        transition: all var(--transition-time);
+    }
+}
+
+/*desktop*/
+@media screen and (max-width: 1370px) {
+
+    #account-container {
+        width: 100%;
+        height: 100vh;
+    }
+
+    #account {
+        width: 25%;
+        min-height: 100px;
+    }
+
+    #account-tabs {
+        width: 100%;
+    }
+
+    #account-tabs li {
+        width: 50%;
+        height: 50px;
+    }
+
+    .tabs {
+        width: 100%;
+    }
+
+    #account-tabs li a:link,
+    #account-tabs li a:visited {
+        font-size: 18px;
+    }
+
+    .input-wrapper {
+        width: 65%;
+        height: 35px;
+        margin: 15px auto 0;
+    }
+
+    .input-wrapper i {
+        right: 7px;
+    }
+
+    #accept_rules {
+        width: 14px;
+        height: 14px;
+    }
+
+    .account-form {
+        padding-right: 27px;
+        width: 100%;
+        height: 35px;
+    }
+
+    .account-form::placeholder {
+        font-size: 11px;
+    }
+
+    #remember-wrapper {
+        width: 65%;
+        margin: 15px auto;
+    }
+
+    #remember-wrapper > label {
+        font-size: 14px;
+    }
+
+    .account-btn {
+        font-size: 16px;
+        margin: 15px auto;
+        width: 100px;
+    }
+
+    #account a {
+        font-size: 14px;
+    }
+
+    .form-wrapper > a {
+        margin-top: 10px;
+    }
+
+    #header-list {
+        font-size: 18px;
+    }
+
+    #header-list {
+        width: 80%;
+    }
+
+    #menu-wrapper > i {
+        font-size: 26px;
+    }
+
+    #logo {
+        width: 175px;
+    }
+
+    #content > h2 {
+        font-size: 65px;
+    }
+
+    #search {
+        width: 550px;
+        height: 50px;
+    }
+
+    #search-btn {
+        width: 85px;
+        height: 40px;
+        font-size: 14px;
+        left: 5px;
+        top: 50%;
+    }
+
+    #services-boxes-container {
+        width: 100%;
+    }
+
+    #header-portfolio-list {
+        width: 50%;
+    }
+
+    .text-in-hover {
+        width: 170px;
+        font-size: 15px;
+    }
+
+    .h3-in-hover {
+        font-size: 25px;
+    }
+
+    .members-team > ul {
+        width: 35px;
+        padding: 3px 0 0 0;
+    }
+
+    .members-team i {
+        font-size: 18px;
+    }
+
+
+    #FAQ-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .question-wrapper > h4 {
+        font-size: 19px;
+    }
+
+    .answer-wrapper {
+        font-size: 15px;
+    }
+
+    .title-wrapper > h3 {
+        left: 50%;
+        top: 25%;
+        font-size: 18px;
+    }
+
+    .title-wrapper > h4 {
+        left: 50%;
+        top: 65%;
+        font-size: 13px;
+    }
+
+    .information > h4 {
+        font-size: 16px;
+    }
+
+    #submit-message {
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+
+    #image-wrapper img {
+        width: 65%;
+    }
+}
+
+/*small-desktop*/
+@media screen and (max-width: 1195px) {
+    #menu {
+        width: 645px;
+    }
+
+    #menu-wrapper > i {
+        font-size: 26px;
+    }
+
+    #header-list {
+        font-size: 16px;
+        width: 85%;
+    }
+
+    #header-list > li > i {
+        margin-right: 3px;
+        font-size: 11px;
+        margin-top: 4px;
+    }
+
+    #services-section-container {
+        width: 100%;
+    }
+
+    #services-boxes-container {
+        width: 100%;
+    }
+
+    .statistics {
+        width: 23%;
+    }
+
+    .profile-picture {
+        height: 85px;
+        width: 85px;
+    }
+
+    .profile-container > img {
+        width: 65px;
+    }
+
+    .profile-wrapper > h3 {
+        font-size: 15px;
+    }
+
+    .profile-wrapper > h4 {
+        font-size: 13px;
+    }
+
+    .profile-wrapper > i {
+        font-size: 15px;
+    }
+
+    #header-portfolio-list {
+        width: 62%;
+    }
+
+    .portfolios {
+        height: 100%;
+    }
+
+    .text-in-hover {
+        width: 144px;
+        font-size: 13px;
+    }
+
+    .h3-in-hover {
+        font-size: 20px;
+    }
+
+    #FAQ-section {
+        background-color: #e0e1e3;
+    }
+
+    #FAQ-bg {
+        height: 100%;
+    }
+
+    #FAQ-section-container {
+        width: 100%;
+    }
+
+    .right-column {
+        width: 60%;
+    }
+
+    .left-column {
+        display: none;
+    }
+
+    #FAQ {
+        padding: 0 35px;
+        align-items: center;
+    }
+
+    .question-wrapper > h4 {
+        font-size: 17px;
+    }
+
+    .answer-wrapper {
+        font-size: 14px;
+    }
+
+    .information > h4 {
+
+        font-size: 15px;
+    }
+
+    #main-footer-section-container {
+        padding: 0;
+    }
+
+    #second-part > ul > li {
+        font-size: 16px;
+    }
+}
+
+/*landscap-tablet*/
+@media screen and (max-width: 988px) {
+    #overlay-menu {
+        width: 80%;
+    }
+
+    #overlay-menu li {
+        width: 48%;
+    }
+
+    #overlay-menu > li li {
+        width: 100%;
+    }
+
+    #account {
+        width: 300px;
+    }
+
+    #top-header{
+        margin-top: 15px;
+    }
+
+    #menu {
+        width: 445px;
+    }
+
+    #header-list {
+        font-size: 12px;
+        width: 92%;
+    }
+
+    #header-list > li > i {
+        margin-right: 3px;
+        font-size: 9px;
+        margin-top: 3px;
+    }
+
+    #header-list > li > ul {
+        width: 135px;
+    }
+
+    #menu-wrapper > i {
+        font-size: 26px;
+    }
+
+    #logo {
+        width: 100px;
+    }
+
+    #search {
+        width: 450px;
+    }
+
+    #content > h2 {
+        font-size: 55px;
+    }
+
+    .services-boxes {
+        width: 47%;
+        margin-bottom: 20px;
+    }
+
+    .statistics > h3 {
+        font-size: 55px;
+    }
+
+    .profile-container {
+        width: 100%;
+    }
+
+    .profile-picture {
+        height: 80px;
+        width: 80px;
+    }
+
+    .profile-picture {
+        height: 70px;
+        width: 70px;
+    }
+
+    .profile-container > img {
+        width: 55px;
+    }
+
+    .profile-wrapper > h3 {
+        font-size: 12px;
+    }
+
+    .profile-wrapper > h4 {
+        font-size: 9px;
+    }
+
+    .profile-wrapper > i {
+        font-size: 10px;
+    }
+
+    .profile-wrapper {
+        margin: 0;
+    }
+
+    #header-portfolio-list {
+        width: 90%;
+    }
+
+    .portfolios {
+        height: 50%;
+        width: 50%;
+    }
+
+    .text-in-hover {
+        width: 230px;
+        font-size: 20px;
+    }
+
+    .h3-in-hover {
+        font-size: 30px;
+    }
+
+    .members-team {
+        width: 50%;
+    }
+
+    .under-line {
+        width: 40%;
+    }
+
+    #FAQ-section {
+        background-color: #e0e1e3;
+    }
+
+    #FAQ-bg {
+        height: 100%;
+    }
+
+    #FAQ-section-container {
+        width: 100%;
+    }
+
+    .right-column {
+        width: 60%;
+    }
+
+    .left-column {
+        display: none;
+    }
+
+    #FAQ {
+        padding: 0 35px;
+        align-items: flex-start;
+    }
+
+    .question-wrapper > h4 {
+        font-size: 15px;
+    }
+
+    .answer-wrapper {
+        font-size: 13px;
+    }
+
+    .information > h4 {
+        font-size: 14px;
+    }
+
+    #contact-information {
+        width: 90%;
+    }
+
+    #contact-section-container {
+        width: 85%;
+    }
+
+    .main-footer {
+        width: 45%;
+        min-height: 100px;
+        margin-top: 30px;
+    }
+
+    #main-footer-section-container {
+        padding: 0 40px;
+    }
+
+    #image-wrapper img {
+        width: 45%;
+    }
+}
+
+/*portrait-tablet*/
+@media screen and (max-width: 763px) {
+
+    .under-line > h2 {
+        font-size: 23px;
+    }
+
+    #overlay-menu {
+        width: 90%;
+    }
+
+    #overlay-menu li {
+        width: 48%;
+    }
+
+    #overlay-menu > li li {
+        width: 100%;
+    }
+
+    #account {
+        width: 270px;
+    }
+
+    #content-wrapper > a {
+        width: 130px;
+    }
+
+    #header-list {
+        font-size: 16px;
+    }
+
+    #menu-wrapper {
+        width: 100%;
+        height: 50px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #menu-bars {
+        display: inline;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #content > h2 {
+        font-size: 36px;
+    }
+
+    .sub-heading {
+        font-size: 13px;
+    }
+
+    #search {
+        width: 90%;
+    }
+
+    .services-boxes {
+        width: 100%;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .statistics {
+        width: 45%;
+    }
+
+    #statistics-section-container {
+        padding-bottom: 100px;
+    }
+
+    #comments-section-container {
+        width: 85%;
+    }
+
+    .profile-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-container > img {
+        width: 25%;
+    }
+
+    .profile-wrapper {
+        text-align: center;
+    }
+
+    #header-portfolio-list {
+        width: 100%;
+    }
+
+    .portfolios {
+        height: 50%;
+    }
+
+    .text-in-hover {
+        width: 127px;
+        font-size: 16px;
+    }
+
+    .h3-in-hover {
+        font-size: 20px;
+    }
+
+    #header-portfolio-list > li {
+        display: flex;
+        font-size: 14px;
+        padding: 7px 16px;
+    }
+
+    #FAQ-section {
+        background-color: #e0e1e3;
+    }
+
+    #FAQ-bg {
+        display: none;
+    }
+
+    #FAQ-section-container {
+        width: 100%;
+    }
+
+    .right-column {
+        width: 100%;
+    }
+
+    .left-column {
+        display: none;
+    }
+
+    #FAQ {
+        padding: 0 35px;
+        align-items: flex-start;
+    }
+
+    .question-wrapper > h4 {
+        font-size: 15px;
+    }
+
+    .answer-wrapper {
+        font-size: 13px;
+    }
+
+    #contact-section-container {
+        width: 95%;
+    }
+
+    .information {
+        width: 50%;
+    }
+
+    #image-wrapper img {
+        width: 52%;
+    }
+
+    #main-footer-section-container {
+        padding: 0;
+    }
+
+    .main-footer {
+        width: 48%;
+    }
+
+    #first-part > img {
+        transform: translate(-20%, 0);
+    }
+
+}
+
+/*mobile*/
+@media screen and (max-width: 500px) {
+    a#go-top:link,
+    a#go-top:visited {
+        bottom: 30px;
+        left: 30px;
+    }
+
+    #color-changer {
+        bottom: 90px;
+        left: 30px;
+    }
+
+    #change-theme {
+        bottom: 135px;
+        left: 27px;
+    }
+
+    #overlay-menu {
+        width: 45%;
+        margin-top: 5px;
+    }
+
+    #account {
+        width: 60%;
+    }
+
+    #menu-wrapper {
+        width: 100%;
+        height: 50px;
+    }
+
+    #menu-bars {
+        display: inline;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #overlay-menu li {
+        height: 50px;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #overlay-menu > li li {
+        height: 50px;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #content-wrapper > i {
+        top: 15px;
+        left: 20px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #header-list {
+        font-size: 16px;
+    }
+
+    #logo {
+        width: 100px;
+    }
+
+    #content > h2 {
+        text-align: center;
+        line-height: 1.5;
+        margin-top: 20px;
+        font-size: 55px;
+    }
+
+    .sub-heading {
+        font-size: 14px;
+    }
+
+    #search {
+        width: 400px;
+    }
+
+    .services-boxes {
+        width: 100%;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .statistics {
+        width: 100%;
+    }
+
+    #comments-section-container {
+        width: 80%;
+    }
+
+    .profile-picture {
+        height: 100px;
+        width: 100px;
+    }
+
+    .profile-container > img {
+        width: 70px;
+    }
+
+    .profile-wrapper > h3 {
+        font-size: 19px;
+    }
+
+    .profile-wrapper > h4 {
+        font-size: 14px;
+    }
+
+    .profile-wrapper > i {
+        font-size: 15px;
+    }
+
+    .under-line {
+        width: 60%;
+    }
+
+    #portfolio-menu {
+        margin: 0px;
+    }
+
+    #header-portfolio-list {
+        width: 70%;
+        flex-direction: column;
+        border-radius: 30px;
+    }
+
+    #header-portfolio-list li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolios {
+        height: 100%;
+        width: 100%;
+    }
+
+    .text-in-hover {
+        width: 246px;
+        font-size: 22px;
+    }
+
+    .h3-in-hover {
+        font-size: 35px;
+    }
+
+    .members-team i {
+        font-size: 25px;
+    }
+
+    #FAQ-section {
+        background-color: #e0e1e3;
+    }
+
+    #FAQ-bg {
+        display: none;
+    }
+
+    #FAQ-section-container {
+        width: 100%;
+    }
+
+    .right-column {
+        width: 100%;
+    }
+
+    .left-column {
+        display: none;
+    }
+
+    #FAQ {
+        padding: 0 35px;
+        align-items: flex-start;
+    }
+
+    .question-wrapper > h4 {
+        font-size: 15px;
+    }
+
+    .answer-wrapper {
+        font-size: 13px;
+    }
+
+    .information {
+        width: 100%;
+    }
+
+    #right-column, #left-column {
+        width: 100%;
+    }
+
+    .main-footer {
+        width: 100%;
+    }
+
+    #image-wrapper img {
+        width: 45%;
+    }
+
+    #first-part {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #image-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #main-footer-section-container {
+        padding: 0 20px;
+    }
+
+    #first-part > img {
+        transform: translate(0%, 0px);
+    }
+
+    #copy-right-section-container {
+        width: 95%;
+    }
+
+    #copy-right-section-container > h3 {
+        font-size: 14px;
+    }
+}
